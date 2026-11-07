@@ -1,0 +1,19 @@
+{
+  "_note": "What the AI pitches and proposals may say about you. Edit in the app under My offer. The AI never claims anything that isn't here. This is sample data: replace it with your own real offer.",
+  "name": "Alex Example",
+  "email": "alex@example.com",
+  "website": "https://portfolio.example.com",
+  "location": "Remote",
+  "headline": "Web developer who builds fast, findable websites for small businesses.",
+  "services": [
+    "Business websites and landing pages",
+    "Online stores and store integrations",
+    "Website speed, SEO and accessibility fixes"
+  ],
+  "proof": [
+    "Sample proof point: replace with a real, checkable result of your own"
+  ],
+  "rates": "",
+  "availability": "Available for new projects",
+  "signature": "Alex Example\nWeb developer · portfolio.example.com"
+}

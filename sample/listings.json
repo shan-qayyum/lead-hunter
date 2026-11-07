@@ -1,0 +1,6 @@
+{
+  "_about": "Recorded listing panels for the 'fixture' listing provider. Fictional businesses only.",
+  "Example Dental Studio": { "name": "Example Dental Studio", "text": "Example Dental Studio\n4.6\n(120)\nDentist", "website": "http://dental.example/" },
+  "Sample Blooms": { "name": "Sample Blooms", "text": "Sample Blooms\n4.2\n(14)\nFlorist\nPermanently closed" },
+  "Placeholder Fitness": { "name": "Placeholder Fitness", "text": "Placeholder Fitness\n4.4\n(38)\nGym", "website": "https://www.instagram.com/placeholder.fitness.example/" }
+}

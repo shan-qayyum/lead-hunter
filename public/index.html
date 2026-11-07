@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lead Hunter</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%237c3aed'/><circle cx='15' cy='15' r='7' stroke='white' stroke-width='3.5' fill='none'/><path d='M20 20l6 6' stroke='white' stroke-width='3.5' stroke-linecap='round'/></svg>">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <aside class="nav">
+    <div class="brand"><span class="logo"></span>Lead Hunter</div>
+    <nav>
+      <a href="#/overview" data-view="overview">Overview</a>
+      <a href="#/leads" data-view="leads">Leads <span class="count" id="c-leads"></span></a>
+      <a href="#/pipeline" data-view="pipeline">Pipeline <span class="count" id="c-pipe"></span></a>
+      <a href="#/offer" data-view="offer">My offer</a>
+      <a href="#/settings" data-view="settings">Settings</a>
+    </nav>
+    <div class="nav-foot" id="pipe-state"></div>
+  </aside>
+  <main id="view"></main>
+  <div class="drawer-scrim" id="scrim" hidden></div>
+  <aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Lead details" aria-hidden="true" inert></aside>
+  <div class="toast" id="toast" role="status"></div>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

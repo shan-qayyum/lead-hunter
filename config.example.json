@@ -1,0 +1,231 @@
+{
+ "minScore": 50,
+ "aiPerRun": 8,
+ "auditsPerRun": 15,
+ "llm": {
+  "baseUrl": "http://localhost:11434/v1",
+  "models": [
+   "replace-with-your-model-id"
+  ],
+  "noJsonMode": [],
+  "timeoutSec": 120
+ },
+ "sources": {
+  "freelancer": {
+   "enabled": true,
+   "queries": [
+    "website",
+    "web development",
+    "wordpress",
+    "shopify",
+    "landing page",
+    "web design",
+    "laravel",
+    "react",
+    "ecommerce website",
+    "seo"
+   ],
+   "minBudgetUSD": 50
+  },
+  "hn": {
+   "enabled": true
+  },
+  "osm": {
+   "enabled": true,
+   "perQuery": 40,
+   "queriesPerRun": 2,
+   "endpoints": [
+    "https://overpass-api.de/api/interpreter",
+    "https://overpass.private.coffee/api/interpreter",
+    "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+   ],
+   "categories": [
+    {
+     "label": "Dentist",
+     "tag": "amenity=dentist"
+    },
+    {
+     "label": "Clinic",
+     "tag": "amenity=clinic"
+    },
+    {
+     "label": "Beauty salon",
+     "tag": "shop=beauty"
+    },
+    {
+     "label": "Hair salon",
+     "tag": "shop=hairdresser"
+    },
+    {
+     "label": "Gym",
+     "tag": "leisure=fitness_centre"
+    },
+    {
+     "label": "Real estate agency",
+     "tag": "office=estate_agent"
+    },
+    {
+     "label": "Law firm",
+     "tag": "office=lawyer"
+    },
+    {
+     "label": "Accountant",
+     "tag": "office=accountant"
+    },
+    {
+     "label": "Car repair",
+     "tag": "shop=car_repair"
+    },
+    {
+     "label": "Restaurant",
+     "tag": "amenity=restaurant"
+    },
+    {
+     "label": "Cafe",
+     "tag": "amenity=cafe"
+    },
+    {
+     "label": "Hotel",
+     "tag": "tourism=hotel"
+    },
+    {
+     "label": "Veterinary",
+     "tag": "amenity=veterinary"
+    },
+    {
+     "label": "Florist",
+     "tag": "shop=florist"
+    }
+   ],
+   "cities": [
+    {
+     "name": "London",
+     "country": "UK",
+     "region": "West",
+     "lat": 51.5074,
+     "lon": -0.1278
+    },
+    {
+     "name": "Manchester",
+     "country": "UK",
+     "region": "West",
+     "lat": 53.4808,
+     "lon": -2.2426
+    },
+    {
+     "name": "New York",
+     "country": "USA",
+     "region": "West",
+     "lat": 40.7128,
+     "lon": -74.006
+    },
+    {
+     "name": "Houston",
+     "country": "USA",
+     "region": "West",
+     "lat": 29.7604,
+     "lon": -95.3698
+    },
+    {
+     "name": "Los Angeles",
+     "country": "USA",
+     "region": "West",
+     "lat": 34.0522,
+     "lon": -118.2437
+    },
+    {
+     "name": "Toronto",
+     "country": "Canada",
+     "region": "West",
+     "lat": 43.6532,
+     "lon": -79.3832
+    },
+    {
+     "name": "Sydney",
+     "country": "Australia",
+     "region": "West",
+     "lat": -33.8688,
+     "lon": 151.2093
+    },
+    {
+     "name": "Melbourne",
+     "country": "Australia",
+     "region": "West",
+     "lat": -37.8136,
+     "lon": 144.9631
+    },
+    {
+     "name": "Dubai",
+     "country": "UAE",
+     "region": "Gulf",
+     "lat": 25.2048,
+     "lon": 55.2708
+    },
+    {
+     "name": "Abu Dhabi",
+     "country": "UAE",
+     "region": "Gulf",
+     "lat": 24.4539,
+     "lon": 54.3773
+    },
+    {
+     "name": "Riyadh",
+     "country": "Saudi Arabia",
+     "region": "Gulf",
+     "lat": 24.7136,
+     "lon": 46.6753
+    },
+    {
+     "name": "Jeddah",
+     "country": "Saudi Arabia",
+     "region": "Gulf",
+     "lat": 21.4858,
+     "lon": 39.1925
+    },
+    {
+     "name": "Doha",
+     "country": "Qatar",
+     "region": "Gulf",
+     "lat": 25.2854,
+     "lon": 51.531
+    },
+    {
+     "name": "Kuwait City",
+     "country": "Kuwait",
+     "region": "Gulf",
+     "lat": 29.3759,
+     "lon": 47.9774
+    },
+    {
+     "name": "Lahore",
+     "country": "Pakistan",
+     "region": "Pakistan",
+     "lat": 31.5204,
+     "lon": 74.3587
+    },
+    {
+     "name": "Karachi",
+     "country": "Pakistan",
+     "region": "Pakistan",
+     "lat": 24.8607,
+     "lon": 67.0011
+    },
+    {
+     "name": "Islamabad",
+     "country": "Pakistan",
+     "region": "Pakistan",
+     "lat": 33.6844,
+     "lon": 73.0479
+    }
+   ]
+  }
+ },
+ "regionBoost": {
+  "West": 5,
+  "Gulf": 5
+ },
+ "listing": {
+  "provider": null,
+  "file": "sample/listings.json"
+ }
+}

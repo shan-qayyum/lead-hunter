@@ -1,0 +1,21 @@
+{
+  "name": "lead-hunter",
+  "version": "1.0.0",
+  "description": "Evidence-first lead research for a freelance web developer: collect, verify, score with capped AI, and let a human decide every send.",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20.12"
+  },
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "demo": "node scripts/setup.mjs --demo && node server.mjs",
+    "start": "node server.mjs",
+    "run-once": "node run.mjs --force",
+    "test": "node tests/unit.test.mjs",
+    "test:e2e": "node tests/e2e.mjs"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.49.1"
+  }
+}
